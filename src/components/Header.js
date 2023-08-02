@@ -15,13 +15,13 @@ export default function Header() {
                     <Container>
                         <h1>JHMedical</h1>
                         <Nav className="me-auto">
-                            <Nav.Link href="#Home"> Home </Nav.Link>
+                            <Nav.Link href="./"> Home </Nav.Link>
 
-                            <Nav.Link href="#Products"> Products </Nav.Link>
+                            <Nav.Link href="./Products"> Products </Nav.Link>
 
-                            <Nav.Link href="#Review"> Review </Nav.Link>
+                            <Nav.Link href="./Review"> Review </Nav.Link>
                             
-                            <Nav.Link href="#Signin"> Sign In </Nav.Link>
+                            <Nav.Link href="./Signin"> Sign In </Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

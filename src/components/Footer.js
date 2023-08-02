@@ -7,12 +7,12 @@ export default function Footer() {
                 <span className="text-muted">Please call for prices/questions</span>
             </div>
             <div className="container">
-                <h1>JHMedical, Inc.</h1>
-                <h1>3005 Cave Hollow Way</h1>
-                <h1>Bountiful, UT 84010</h1>
+                <h3>JHMedical, Inc.</h3>
+                <p>3005 Cave Hollow Way</p>
+                <p>Bountiful, UT 84010</p>
                 <br></br>
                 <br></br>
-                <h1>1-801-540-9158</h1>
+                <h3>1-801-540-9158</h3>
             </div>
             <div>
                 {/* links to calcoast? */}
