@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Header from './components/Header.js';
-import Home from './components/Home.js';
-import Products from './components/Products.js';
-import Signin from './components/Signin.js';
-import Review from './components/Review.js';
-import Footer from './components/Footer.js';
+import Header from '../client/src/components/components/Header.js';
+import Home from '../client/src/components/components/Home.js';
+import Products from '../client/src/components/components/Products.js';
+import Signin from '../client/src/components/components/Signin.js';
+import Review from '../client/src/components/components/Review.js';
+import Footer from '../client/src/components/components/Footer.js';
 
 // import home from './components/Home.js';
 // import products from './components/Products.js';
