@@ -1,3 +1,4 @@
 const Profile = require('./profile');
+const Product = require('./product')
 
-module.exports = { Profile };
+module.exports = { Profile, Product };
