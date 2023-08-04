@@ -8,6 +8,13 @@ const typeDefs = gql`
     password: String
   }
 
+  type Review {
+    _id: ID
+    reviewText: String
+    createdAt: Date
+    user: String
+  }
+
   type Product {
     _id: ID
     name: String
@@ -15,6 +22,7 @@ const typeDefs = gql`
     type: String
     link: String
     description: String
+    reviews: [Review!]
   }
 
   type Auth {
