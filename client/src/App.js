@@ -7,11 +7,6 @@ import Signin from './components/Signin.js';
 import Review from './components/Review.js';
 import Footer from './components/Footer.js';
 
-// import home from './components/Home.js';
-// import products from './components/Products.js';
-// import review from './components/Review.js';
-// import signin from './components/Signin.js';
-
 function App() {
   return (
     <main className=''>

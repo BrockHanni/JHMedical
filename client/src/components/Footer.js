@@ -1,4 +1,5 @@
 import React from 'react';
+import calcoast from '../assets/images/calcoastlogo.jpg';
 
 export default function Footer() {
     return (
@@ -15,7 +16,8 @@ export default function Footer() {
                 <h3>1-801-540-9158</h3>
             </div>
             <div>
-                {/* links to calcoast? */}
+            <p>A Partner of <a href="https://www.calcoastophthalmic.com/">Cal Coast Ophthalmic</a></p>
+            <img src={calcoast} alt="Cal Coast Ophthalmic Logo"></img>
             </div>
 
         </footer>

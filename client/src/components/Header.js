@@ -2,12 +2,15 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import jhmedical from '../assets/images/jhmedical.jpg';
 
 export default function Header() {
     return(
         <header className="header">
             <div className="container">
-                {/* logo */}
+                <img src={jhmedical}>
+
+                </img>
             </div>
 
             <div>
