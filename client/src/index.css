@@ -62,3 +62,13 @@ code {
 .header .nav-link:hover {
   color: #007bff;
 }
+
+/* Products styles */
+.products-container {
+  padding: 20px;
+}
+
+.products-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
