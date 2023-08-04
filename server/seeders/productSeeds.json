@@ -1,44 +1,51 @@
 [
     {
-        "type": "Chair",
         "name": "Reliance 6200 Manual Recline Chair",
+        "price": 500,
+        "type": "Chair",
         "link": "https://www.calcoastophthalmic.com/reliance-6200-exam-chair",
-        "price": "$--"
+        "description": ""
     },
     {
-        "type": "Stand",
         "name": "REliance 7900 Instrument Stand",
+        "price": 500,
+        "type": "Stand",
         "link": "https://www.calcoastophthalmic.com/7900-instrument-stand",
-        "price": "$--"
+        "description": ""
     },
     {
-        "type": "Slit Lamp",
         "name": "Cal Coast Ophthalmic SL-CS Slit Lamp",
+        "price": 500,
+        "type": "Slit Lamp",
         "link": "https://www.calcoastophthalmic.com/cal-coast-sl-c3-led-slit-lamp",
-        "price": "$--"
+        "description": ""
     },
     {
-        "type": "Phoroptor",
         "name": "Reichert Ultramatic RX Master™ Phoroptor® Refracting Instrument",
+        "price": 500,
+        "type": "Phoroptor",
         "link": "https://www.calcoastophthalmic.com/phoroptor-non-illuminated",
-        "price": "$--"
+        "description": ""
     },
     {
-        "type": "Tonometer",
         "name": "Reichert® 7CR Auto Tonometer + Corneal Response Technology®",
+        "price": 500,    
+        "type": "Tonometer",
         "link": "https://www.calcoastophthalmic.com/7cr-auto-tonometer",
-        "price": "$--"    
+        "description": ""
     },
     {
-        "type": "Lensmeter",
         "name": "Essilor ALM500 Auto-Lensmeter",
+        "price": 500,
+        "type": "Lensmeter",
         "link": "https://www.calcoastophthalmic.com/alm500-auto-lensmeter",
-        "price": "$--"
+        "description": ""
     },
     {
-        "type": "Table",
         "name": "Topcon AIT-250W Adjustable Instrument Table",
+        "price": 500,
+        "type": "Table",
         "link": "https://www.calcoastophthalmic.com/ait-250w-motorized-table",
-        "price": "$--"
+        "description": ""
     }
 ]
