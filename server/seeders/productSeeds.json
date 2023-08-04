@@ -4,48 +4,48 @@
         "price": 500,
         "type": "Chair",
         "link": "https://www.calcoastophthalmic.com/reliance-6200-exam-chair",
-        "description": ""
+        "description": "The Model 6200 is designed for efficient operation from both sides of the chair. Its ergonomic design facilitates contact with the patient and eliminates wasted movements."
     },
     {
         "name": "REliance 7900 Instrument Stand",
         "price": 500,
         "type": "Stand",
         "link": "https://www.calcoastophthalmic.com/7900-instrument-stand",
-        "description": ""
+        "description": "This contemporary instrument stand uses the same polycarbonate used on supersonic aircraft to resist scrapes, scratches, and scuffs. A unique injection molding process creates a unique color, creating a noteworthy style."
     },
     {
         "name": "Cal Coast Ophthalmic SL-CS Slit Lamp",
         "price": 500,
         "type": "Slit Lamp",
         "link": "https://www.calcoastophthalmic.com/cal-coast-sl-c3-led-slit-lamp",
-        "description": ""
+        "description": "LED light source for even, long-lasting illumination"
     },
     {
         "name": "Reichert Ultramatic RX Master™ Phoroptor® Refracting Instrument",
         "price": 500,
         "type": "Phoroptor",
         "link": "https://www.calcoastophthalmic.com/phoroptor-non-illuminated",
-        "description": ""
+        "description": "The original and best refracting instrument, Phoroptor continues to be the industry standard after more than 90 years, offering world-renown mechanical quality and craftsmanship. The Reichert Phoroptor is the only refracting instrument completely designed and manufactured in the United States. Each Phoroptor is made of nearly 1,000 pieces, assembled by hand in our Buffalo, New York factory."
     },
     {
         "name": "Reichert® 7CR Auto Tonometer + Corneal Response Technology®",
         "price": 500,    
         "type": "Tonometer",
         "link": "https://www.calcoastophthalmic.com/7cr-auto-tonometer",
-        "description": ""
+        "description": "The Reichert 7CR from Reichert Technoligies utilizes a patented bi-directional applanation process to characterize the biomechanical properties of the cornea and reduce their impact on the IOP measurement. This measurement, referred to as Corneal Compensated IOP (IOPcc) is minimally affected by corneal visco-elastic properties, thickness, or surgical procedures such as LASIK or PRK. As such, IOPcc is a better indicator of glaucoma risk than other methods of tonometry, including Goldmann Applanation."
     },
     {
         "name": "Essilor ALM500 Auto-Lensmeter",
         "price": 500,
         "type": "Lensmeter",
         "link": "https://www.calcoastophthalmic.com/alm500-auto-lensmeter",
-        "description": ""
+        "description": "Lens support adapted to all lenses and frames cambers"
     },
     {
         "name": "Topcon AIT-250W Adjustable Instrument Table",
         "price": 500,
         "type": "Table",
         "link": "https://www.calcoastophthalmic.com/ait-250w-motorized-table",
-        "description": ""
+        "description": "The AIT-250W Wheelchair Accessible Table can accommodate up to two instruments and features motorized height adjustment, four programmable memory height and user positions, and an electrical power strip for added convenience."
     }
 ]
