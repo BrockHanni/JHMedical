@@ -20,6 +20,7 @@ const typeDefs = gql`
     name: String
     price: Number
     type: String
+    image: String
     link: String
     description: String
     reviews: [Review!]

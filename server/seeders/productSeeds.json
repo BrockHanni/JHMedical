@@ -3,6 +3,7 @@
         "name": "Reliance 6200 Manual Recline Chair",
         "price": 500,
         "type": "Chair",
+        "image": "https://static.wixstatic.com/media/97d7ac_f09857a28fc340eda36d57762328ab18~mv2.jpg/v1/fill/w_561,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/97d7ac_f09857a28fc340eda36d57762328ab18~mv2.jpg",
         "link": "https://www.calcoastophthalmic.com/reliance-6200-exam-chair",
         "description": "The Model 6200 is designed for efficient operation from both sides of the chair. Its ergonomic design facilitates contact with the patient and eliminates wasted movements."
     },
@@ -10,6 +11,7 @@
         "name": "REliance 7900 Instrument Stand",
         "price": 500,
         "type": "Stand",
+        "image": "https://static.wixstatic.com/media/97d7ac_1ddcec29cb5e4f4991ce5ef47a4f98dc~mv2.jpg/v1/fill/w_561,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/97d7ac_1ddcec29cb5e4f4991ce5ef47a4f98dc~mv2.jpg",
         "link": "https://www.calcoastophthalmic.com/7900-instrument-stand",
         "description": "This contemporary instrument stand uses the same polycarbonate used on supersonic aircraft to resist scrapes, scratches, and scuffs. A unique injection molding process creates a unique color, creating a noteworthy style."
     },
@@ -17,6 +19,7 @@
         "name": "Cal Coast Ophthalmic SL-CS Slit Lamp",
         "price": 500,
         "type": "Slit Lamp",
+        "image": "https://static.wixstatic.com/media/97d7ac_e5a5322dee4b437e9712b2f935fbe730~mv2.png/v1/crop/x_148,y_152,w_784,h_784/fill/w_539,h_539,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SL-C3%20Cal%20Coast.png",
         "link": "https://www.calcoastophthalmic.com/cal-coast-sl-c3-led-slit-lamp",
         "description": "LED light source for even, long-lasting illumination"
     },
@@ -24,6 +27,7 @@
         "name": "Reichert Ultramatic RX Master™ Phoroptor® Refracting Instrument",
         "price": 500,
         "type": "Phoroptor",
+        "image": "https://static.wixstatic.com/media/97d7ac_1b81a5a722ec4ab2aef8704021161fe0~mv2_d_1500_1500_s_2.jpg/v1/fill/w_524,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/97d7ac_1b81a5a722ec4ab2aef8704021161fe0~mv2_d_1500_1500_s_2.jpg",
         "link": "https://www.calcoastophthalmic.com/phoroptor-non-illuminated",
         "description": "The original and best refracting instrument, Phoroptor continues to be the industry standard after more than 90 years, offering world-renown mechanical quality and craftsmanship. The Reichert Phoroptor is the only refracting instrument completely designed and manufactured in the United States. Each Phoroptor is made of nearly 1,000 pieces, assembled by hand in our Buffalo, New York factory."
     },
@@ -31,6 +35,7 @@
         "name": "Reichert® 7CR Auto Tonometer + Corneal Response Technology®",
         "price": 500,    
         "type": "Tonometer",
+        "image": "https://static.wixstatic.com/media/97d7ac_47bba82608884d7298ac35f9abbbd93a~mv2_d_1739_1800_s_2.jpg/v1/fill/w_506,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/97d7ac_47bba82608884d7298ac35f9abbbd93a~mv2_d_1739_1800_s_2.jpg",
         "link": "https://www.calcoastophthalmic.com/7cr-auto-tonometer",
         "description": "The Reichert 7CR from Reichert Technoligies utilizes a patented bi-directional applanation process to characterize the biomechanical properties of the cornea and reduce their impact on the IOP measurement. This measurement, referred to as Corneal Compensated IOP (IOPcc) is minimally affected by corneal visco-elastic properties, thickness, or surgical procedures such as LASIK or PRK. As such, IOPcc is a better indicator of glaucoma risk than other methods of tonometry, including Goldmann Applanation."
     },
@@ -38,6 +43,7 @@
         "name": "Essilor ALM500 Auto-Lensmeter",
         "price": 500,
         "type": "Lensmeter",
+        "image": "https://static.wixstatic.com/media/97d7ac_400e42317bb940948b27255916aa1625~mv2.png/v1/crop/x_142,y_190,w_793,h_793/fill/w_524,h_524,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ALM500.png",
         "link": "https://www.calcoastophthalmic.com/alm500-auto-lensmeter",
         "description": "Lens support adapted to all lenses and frames cambers"
     },
@@ -45,6 +51,7 @@
         "name": "Topcon AIT-250W Adjustable Instrument Table",
         "price": 500,
         "type": "Table",
+        "image": "https://static.wixstatic.com/media/97d7ac_1b8251c036764b738430bb58b6987b5e~mv2_d_1739_1800_s_2.jpg/v1/fill/w_506,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/97d7ac_1b8251c036764b738430bb58b6987b5e~mv2_d_1739_1800_s_2.jpg",
         "link": "https://www.calcoastophthalmic.com/ait-250w-motorized-table",
         "description": "The AIT-250W Wheelchair Accessible Table can accommodate up to two instruments and features motorized height adjustment, four programmable memory height and user positions, and an electrical power strip for added convenience."
     }
