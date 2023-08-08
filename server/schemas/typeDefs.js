@@ -11,14 +11,14 @@ const typeDefs = gql`
   type Review {
     _id: ID
     reviewText: String
-    createdAt: Date
+    createdAt: String
     user: String
   }
 
   type Product {
     _id: ID
     name: String
-    price: Number
+    price: Int
     type: String
     image: String
     link: String
@@ -36,7 +36,8 @@ const typeDefs = gql`
     profile(profileId: ID!): Profile
     # Because we have the context functionality in place to check a JWT and decode its data, we can use a query that will always find and return the logged in user's data
     me: Profile
-    products(type: String!): [Product]!
+    products: [Product]!
+    productsByType(type: String!): [Product]!
     product(productId: ID!): Product
   }
 

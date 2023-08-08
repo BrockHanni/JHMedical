@@ -19,7 +19,10 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
     // product query's
-    products: async (parent, { type }) => {
+    products: async () => {
+      return await Product.find();
+    },
+    productsByType: async (parent, { type }) => {
       return Product.find({ type: type });
     },
   },
