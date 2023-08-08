@@ -19,12 +19,22 @@ export default function Products() {
 
     if (loading) {
         return <p>Loading...</p>;
-    }
 
-    // You can render your components here once the loading is complete and no error occurred
-    return (
-        <div>
-            <p>Data</p>
+            <h1>Products</h1>
+            <section>
+                <h1>Product Links</h1>
+                {/* dropdown menus */}
+                <div>
+                    <button>Chairs</button>
+                </div>
+                <div>
+                    <button>Tables</button>
+                </div>
+                <div>
+                    <button>Stands</button>
+                </div>
+            </section>
+
         </div>
     );
 }

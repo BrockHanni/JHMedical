@@ -5,7 +5,15 @@ export default function Signin() {
         <div>
             <h1>Sign In</h1>
             <section>
-                <h1></h1>
+                <label>
+                    Username:
+                    <input type="text" name="Username" />
+                </label>
+                <label>
+                    Password:
+                    <input type="text" name="Password" />
+                </label>
+                <button>Sign In</button>
             </section>
         </div>
     )

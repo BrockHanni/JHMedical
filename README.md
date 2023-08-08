@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# JHMedical Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a functional website for an optical equipment company based here in Utah. We we're hired to have a fully functional website, that shows the available equipment, and if signed in to a verified user, view prices. It's currently deployed to heroku until the client is ready to use it.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+To use, click through the links to products, and see the products available. Then sign in with the given verified users, and you'll see prices on those products.
 
-### `npm start`
+## Contributing/Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To submit bug reports, feature requests, or pull requests, please email me at hannibr26@gmail.com, or visit my GitHub page: BrockHanni(https://github.com/BrockHanni/JHMedical)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+Check out the repo here: https://github.com/BrockHanni/JHMedical
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Or click here to see the deployed version: 
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+INSERT SCREENSHOTS HERE
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributers
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This app was built by a team of student developers as a final project for the University of Utah Coding Bootcamp. The team consisted of:
 
-### `npm run eject`
+Blake Hollingsworth https://github.com/BlakeE-37
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Geofferey "Gibby" Eidem https://github.com/Geidem
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Eleanor Dick https://github.com/Eleanorfrances
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Brock Hanni https://github.com/BrockHanni
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Table of Contents
+- [Usage](#usage)
+- [Contributing/Contact](#contributing/Contact)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Table of Contents](#table-of-contents)
