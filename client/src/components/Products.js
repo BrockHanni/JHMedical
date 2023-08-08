@@ -1,69 +1,30 @@
 import React, { useState, useEffect } from "react";
-import {QUERY_PRODUCTS} from "../utils/query.js";
+import { QUERY_PRODUCTS } from "../utils/query";
+import { useQuery } from '@apollo/client';
 
 export default function Products() {
     const [productTypes, setProductTypes] = useState([]);
     const [selectedType, setSelectedType] = useState(null);
 
+    const { loading, data } = useQuery(QUERY_PRODUCTS);
+
     useEffect(() => {
-        // Function to fetch the product data from productSeeds.json
-        const fetchProductData = async () => {
-            try {
-                const response = await fetch(QUERY_PRODUCTS);
-                if (!response.ok) {
-                    throw new Error("Failed to fetch product data");
-                }
-                const data = await response.json();
-                setProductTypes(data.productTypes);
-            } catch (error) {
-                console.error(error);
-            }
-        };
+        if (data) {
+            // The data object is available when the query is successful
+            const products = data; // Access the 'products' field from the data
+            console.log(products);
+            // Now you can do something with the products data
+        }
+    }, [data]);
 
-        fetchProductData();
-    }, []);
+    if (loading) {
+        return <p>Loading...</p>;
+    }
 
-    const handleTypeClick = (typeId) => {
-        setSelectedType(typeId === selectedType ? null : typeId);
-    };
-
+    // You can render your components here once the loading is complete and no error occurred
     return (
         <div>
-            <h1>Products</h1>
-            <section>
-                <div style={{ display: "flex" }}>
-                    {/* Sidebar with product types */}
-                    <div style={{ flex: 1 }}>
-                        <h2>Product Types</h2>
-                        <ul>
-                            {productTypes.map((type) => (
-                                <li
-                                    key={type.id}
-                                    onClick={() => handleTypeClick(type.id)}
-                                    style={{ cursor: "pointer" }}
-                                >
-                                    {type.name}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    {/* Items of the selected type */}
-                    <div style={{ flex: 3 }}>
-                        {selectedType !== null && (
-                            <div>
-                                <h2>{productTypes.find((type) => type.id === selectedType).name}</h2>
-                                <ul>
-                                    {productTypes
-                                        .find((type) => type.id === selectedType)
-                                        .items.map((item, index) => (
-                                            <li key={index}>{item}</li>
-                                        ))}
-                                </ul>
-                            </div>
-                        )}
-                    </div>
-                </div>
-            </section>
+            <p>Data</p>
         </div>
     );
 }
