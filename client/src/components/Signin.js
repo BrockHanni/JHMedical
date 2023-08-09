@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import { useMutation } from '@apollo/client';
 import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
+import '../css/signin.css'
 
 export default function Signin() {
-
-    const [username, setUsername] = useState("")
-    const [password, setPassword] = useState("")
-    const [passwordPlaceholder, setPlaceholder] = useState("")
-
-
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+    
     const [login, { error }] = useMutation(LOGIN);
 
     const handleFormSubmit = async (event) => {
@@ -31,40 +29,40 @@ export default function Signin() {
         const inputType = target.name
         const inputValue = target.value
 
-        // sync the state and the value in the dom
         if (inputType === "username") {
             setUsername(inputValue)
         } else if (inputType === "password") {
             setPassword(inputValue)
-            // setPlaceholder(inputValue.length)
         }
     };
 
     return (
-        <div>
-            <h1>Sign In</h1>
-            <form>
-                <label>
-                    Username:
-                    <input
-                        type="text"
-                        name="username"
-                        value={username}
-                        onChange={handleInputChange}
-                    />
-                </label>
-                <label>
-                    Password:
-                    <input
-                        type="text"
-                        name="password"
-                        value={password}
-                        onChange={handleInputChange}
-                    />
-                </label>
-                <button type="button" onClick={handleFormSubmit}>Sign In</button>
-                {error && <p>{error.message}</p>}
-            </form>
+        <div className="centered-card">
+            <div className="card">
+                <h1>Sign In</h1>
+                <form>
+                    <label>
+                        Username:
+                        <input
+                            type="text"
+                            name="username"
+                            value={username}
+                            onChange={handleInputChange}
+                        />
+                    </label>
+                    <label>
+                        Password:
+                        <input
+                            type="password"
+                            name="password"
+                            value={password}
+                            onChange={handleInputChange}
+                        />
+                    </label>
+                    <button type="button" onClick={handleFormSubmit}>Sign In</button>
+                    {error && <p>{error.message}</p>}
+                </form>
+            </div>
         </div>
-    )
+    );
 }

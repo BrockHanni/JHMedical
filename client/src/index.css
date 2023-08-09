@@ -41,12 +41,6 @@ code {
   background-color: #f8f9fa;
 }
 
-.header h1 {
-  font-size: 32px;
-  margin: 0;
-  color: #333;
-}
-
 .header .navbar {
   background-color: #f8f9fa;
 }
@@ -98,4 +92,15 @@ code {
 .logo {
   margin-top: 10px;
   height: 14vh;
+  max-width: 75px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100 vw;
+  /* Adjust the value as needed */
+  height: 15vh;
+  margin: 0 auto;
 }
