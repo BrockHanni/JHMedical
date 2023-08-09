@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import jhmedical from '../assets/images/jhmedical.jpg';
 
 export default function Header() {
-    return(
+    return (
         <header className="header">
             <div className="header-container">
                 <img src={jhmedical} alt="Logo " className="logo">
@@ -23,7 +23,7 @@ export default function Header() {
                             <Nav.Link href="./Products"> Products </Nav.Link>
 
                             <Nav.Link href="./Review"> Review </Nav.Link>
-                            
+
                             <Nav.Link href="./Signin"> Sign In </Nav.Link>
                         </Nav>
                     </Container>
