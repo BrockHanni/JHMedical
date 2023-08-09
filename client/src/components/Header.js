@@ -26,20 +26,21 @@ export default function Header() {
                 <Navbar expand="lg" className="bg-body-tertiary">
                     <Container>
                         <Nav className="nav-link">
-                            <Link to="/"> Home </Link>
+                            <Link className="nav-link" to="/"> Home </Link>
 
                             {Auth.loggedIn() ? (
-                                <Link to="/ProductsLogin"> Products </Link>
+                                <Link className="nav-link" to="/ProductsLogin"> Products </Link>
                             ) : (
-                                <Link to="/Products"> Products </Link>
+                                <Link className="nav-link" to="/Products"> Products </Link>
 
                             )}
 
-                            <Link to="/Review"> Review </Link>
+                            <Link className="nav-link" to="/Review"> Review </Link>
+
                             {Auth.loggedIn() ? (
-                                <Link onClick={logout}> Sign Out </Link>
+                                <Link className="nav-link" onClick={logout}> Sign Out </Link>
                             ) : (
-                                <Link to="/Signin"> Sign In </Link>
+                                <Link className="nav-link" to="/Signin"> Sign In </Link>
                             )}
                         </Nav>
                     </Container>
