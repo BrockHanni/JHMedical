@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { useMutation } from '@apollo/client';
 import { LOGIN } from '../utils/mutations';
+import Auth from '../utils/auth';
 
 export default function Signin() {
 
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [passwordPlaceholder, setPlaceholder] = useState("")
+
 
     const [login, { error }] = useMutation(LOGIN);
 
@@ -16,6 +18,7 @@ export default function Signin() {
             const mutationResponse = await login({
                 variables: { username: username, password: password },
             });
+            console.log(mutationResponse)
             const token = mutationResponse.data.login.token;
             Auth.login(token);
         } catch (e) {
@@ -32,7 +35,8 @@ export default function Signin() {
         if (inputType === "username") {
             setUsername(inputValue)
         } else if (inputType === "password") {
-            setPassword(passwordPlaceholder + "*")
+            setPassword(inputValue)
+            // setPlaceholder(inputValue.length)
         }
     };
 
@@ -53,12 +57,13 @@ export default function Signin() {
                     Password:
                     <input
                         type="text"
-                        name="Password"
-                        value={passwordPlaceholder}
+                        name="password"
+                        value={password}
                         onChange={handleInputChange}
                     />
                 </label>
                 <button type="button" onClick={handleFormSubmit}>Sign In</button>
+                {error && <p>{error.message}</p>}
             </form>
         </div>
     )

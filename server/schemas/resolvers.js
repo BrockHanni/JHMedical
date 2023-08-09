@@ -35,7 +35,7 @@ const resolvers = {
       return { token, profile };
     },
     login: async (parent, { username, password }) => {
-      const profile = await Profile.findOne({ username });
+      const profile = await Profile.findOne({ username: username });
 
       if (!profile) {
         throw new AuthenticationError('No profile with this username found!');

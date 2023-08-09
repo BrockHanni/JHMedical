@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0b0d64f.css",
+    "main.js": "/static/js/main.c1f6dbf9.js",
+    "static/js/787.7b2bcacc.chunk.js": "/static/js/787.7b2bcacc.chunk.js",
+    "static/media/jhmedical.jpg": "/static/media/jhmedical.687676be721616a674ae.jpg",
+    "static/media/calcoastlogo.jpg": "/static/media/calcoastlogo.60096f7d432a3c33e214.jpg",
+    "index.html": "/index.html",
+    "main.e0b0d64f.css.map": "/static/css/main.e0b0d64f.css.map",
+    "main.c1f6dbf9.js.map": "/static/js/main.c1f6dbf9.js.map",
+    "787.7b2bcacc.chunk.js.map": "/static/js/787.7b2bcacc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0b0d64f.css",
+    "static/js/main.c1f6dbf9.js"
+  ]
+}
