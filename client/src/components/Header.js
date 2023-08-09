@@ -7,8 +7,8 @@ import jhmedical from '../assets/images/jhmedical.jpg';
 export default function Header() {
     return(
         <header className="header">
-            <div className="container">
-                <img src={jhmedical}>
+            <div className="header-container">
+                <img src={jhmedical} alt="Logo " className="logo">
 
                 </img>
             </div>
