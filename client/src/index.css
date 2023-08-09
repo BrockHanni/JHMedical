@@ -53,6 +53,7 @@ code {
   margin-right: 10px;
   text-decoration: none;
   padding: 5px 10px;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -97,8 +98,19 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 100 vw;
-  /* Adjust the value as needed */
+  max-width: 100vw;
   height: 15vh;
   margin: 0 auto;
+}
+
+.home-container{
+  padding: 20px;
+  text-align: center;
+  line-height: 2;
+}
+
+.family-picture{
+  border-radius: 25px;
+  box-shadow: #333 10px 10px 5px;
+
 }
