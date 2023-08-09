@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import jhmedical from '../assets/images/jhmedical.jpg';
 import Auth from '../utils/auth';
 
+import { Link } from 'react-router-dom';
+
 export default function Header() {
 
     const logout = (event) => {
@@ -24,20 +26,20 @@ export default function Header() {
                 <Navbar expand="lg" className="bg-body-tertiary">
                     <Container>
                         <Nav className="nav-link">
-                            <Nav.Link to="/"> Home </Nav.Link>
+                            <Link to="/"> Home </Link>
 
                             {Auth.loggedIn() ? (
-                                <Nav.Link to="/Products"> Products </Nav.Link>
+                                <Link to="/Products"> Products </Link>
                             ) : (
 
-                                <Nav.Link to="/ProductsLogin"> Products </Nav.Link>
+                                <Link to="/ProductsLogin"> Products </Link>
                             )}
 
-                            <Nav.Link to="/Review"> Review </Nav.Link>
+                            <Link to="/Review"> Review </Link>
                             {Auth.loggedIn() ? (
-                                <Nav.Link onClick={logout}> Sign Out </Nav.Link>
+                                <Link onClick={logout}> Sign Out </Link>
                             ) : (
-                                <Nav.Link to="/Signin"> Sign In </Nav.Link>
+                                <Link to="/Signin"> Sign In </Link>
                             )}
                         </Nav>
                     </Container>
