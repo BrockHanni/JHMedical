@@ -29,10 +29,10 @@ export default function Header() {
                             <Link to="/"> Home </Link>
 
                             {Auth.loggedIn() ? (
-                                <Link to="/Products"> Products </Link>
-                            ) : (
-
                                 <Link to="/ProductsLogin"> Products </Link>
+                            ) : (
+                                <Link to="/Products"> Products </Link>
+
                             )}
 
                             <Link to="/Review"> Review </Link>
