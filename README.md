@@ -18,7 +18,11 @@ Or click here to see the deployed version:
 
 ## Screenshots
 
-INSERT SCREENSHOTS HERE
+![HomePage](images/Home.jpg)
+
+![Products Page](images/Products.jpg)
+
+![Sign In Page](images/SignIn.jpg)
 
 ## Contributers
 
