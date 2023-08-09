@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
- /* Footer  */
- .footer {
+/* Footer  */
+.footer {
   background-color: #f8f9fa;
   padding: 20px;
   text-align: center;
@@ -44,7 +44,6 @@ code {
 .header h1 {
   font-size: 32px;
   margin: 0;
-  padding: 10px;
   color: #333;
 }
 
@@ -52,7 +51,9 @@ code {
   background-color: #f8f9fa;
 }
 
-.header .nav-link {
+.nav-link {
+  display: flex;
+  gap: 10px;
   color: #333;
   font-size: 18px;
   margin-right: 10px;
@@ -60,17 +61,17 @@ code {
   padding: 5px 10px;
 }
 
-.header .nav-link:hover {
+.nav-link:hover {
   color: #007bff;
 }
 
 .header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
   text-align: center;
-  height: 100vh; 
+  height: 15vh;
 }
 
 /* Products styles */
@@ -83,8 +84,8 @@ code {
   margin-bottom: 10px;
 }
 
- /* Review styles */
- .review-container {
+/* Review styles */
+.review-container {
   text-align: center;
   padding: 20px;
 }
@@ -95,5 +96,6 @@ code {
 }
 
 .logo {
-  max-width: 75px;
+  margin-top: 10px;
+  height: 14vh;
 }
