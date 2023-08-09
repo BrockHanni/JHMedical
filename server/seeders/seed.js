@@ -29,4 +29,3 @@ function seedAll() {
 }
 
 module.exports = seedAll
-seedAll()
