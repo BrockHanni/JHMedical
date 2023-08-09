@@ -112,5 +112,32 @@ code {
 .family-picture{
   border-radius: 25px;
   box-shadow: #333 10px 10px 5px;
+}
 
+.product-card {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 2;
+}
+.product-card:hover{
+  border: 1px solid #ccc; /* Add border or styling as needed */
+  box-shadow: #333 0px 4px 6px;
+}
+
+.card-content {
+  text-align: center;
+}
+.productName{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.productType{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ProductPage{
+  margin-bottom: 10px;
 }
