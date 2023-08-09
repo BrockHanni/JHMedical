@@ -4,6 +4,11 @@ export const QUERY_PRODUCTS = gql`
 query getProducts {
   products {
     name
+    price
+    type
+    image
+    link
+    description
   }
 }
 `;

@@ -7,6 +7,7 @@ import Products from './components/Products.js';
 import Signin from './components/Signin.js';
 import Review from './components/Review.js';
 import Footer from './components/Footer.js';
+import ProductsLogin from './components/ProductsLogin.js';
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -24,6 +25,8 @@ function App() {
             <Route path="/" element={<Home />} />
 
             <Route path="/Products" element={<Products />} />
+
+            <Route path="/ProductsLogin" element={<ProductsLogin />} />
 
             <Route path="/Review" element={<Review />} />
 
