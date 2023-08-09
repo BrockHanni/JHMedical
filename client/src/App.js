@@ -18,8 +18,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <main className=''>
-        <Header />
         <Router>
+          <Header />
           <Routes>
 
             <Route path="/" element={<Home />} />
